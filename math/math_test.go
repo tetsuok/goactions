@@ -10,3 +10,10 @@ func TestMax(t *testing.T) {
 		t.Errorf("Max(10, 42) = %v, want %v", got, want)
 	}
 }
+
+func TestMin(t *testing.T) {
+	want := 10
+	if got := Min(10, 42); got != want {
+		t.Errorf("Min(10, 42) = %v, want %v", got, want)
+	}
+}
