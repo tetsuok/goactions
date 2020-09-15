@@ -1,6 +1,5 @@
 runner:
   golint:
     cmd: golint -set_exit_status ./...
-    level: warning
   govet:
     cmd: go vet ./...
