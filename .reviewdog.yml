@@ -3,5 +3,7 @@ runner:
     cmd: golint ./...
     errorformat:
       - "%f:%l:%c: %m"
+    level:
+      - warning
   govet:
     cmd: go vet ./...
