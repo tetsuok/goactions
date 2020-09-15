@@ -1,6 +1,5 @@
 runner:
   golint:
     cmd: golint ./...
-    level: warning
   govet:
     cmd: go vet ./...
