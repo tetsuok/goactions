@@ -13,10 +13,3 @@ func Min(a, b int) int {
 	}
 	return b
 }
-
-func isFoo(x int) bool {
-	if x == 42 {
-		return true
-	}
-	return false
-}
