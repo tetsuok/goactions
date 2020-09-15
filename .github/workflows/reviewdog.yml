@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install golint
-        run: go -u get golang.org/x/lint/golint
+        run: go get -u golang.org/x/lint/golint
       - uses: reviewdog/action-setup@v1
         with:
           reviewdog_version: latest
