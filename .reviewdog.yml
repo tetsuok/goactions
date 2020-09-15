@@ -1,6 +1,6 @@
 runner:
   golint:
-    cmd: golint ./...
+    cmd: golint $(go list ./...)
     errorformat:
       - "%f:%l:%c: %m"
     level: warning
