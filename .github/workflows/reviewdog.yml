@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install golint
+        run: go -u get golang.org/x/lint/golint
       - uses: reviewdog/action-setup@v1
         with:
           reviewdog_version: latest
