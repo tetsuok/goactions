@@ -1,8 +1,9 @@
 name: reviewdog
-on: [pull_request]
-paths:
-  - '**.go'
-  - '.github/workflows/reviewdog.yml'
+on:
+  pull_request:
+    paths:
+    - '**.go'
+    - '.github/workflows/reviewdog.yml'
 
 jobs:
   reviewdog:
